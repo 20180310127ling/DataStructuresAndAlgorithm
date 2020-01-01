@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "扑克", "扑克\扑克.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "人工智能", "人工智能\人工智能.csproj", "{68C031C2-A655-4CD0-909B-14F6F84CFAC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据元素和描述", "数据元素和描述\数据元素和描述.csproj", "{5C7462AC-E6D9-4C52-8528-E9A1B76720DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{68C031C2-A655-4CD0-909B-14F6F84CFAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C031C2-A655-4CD0-909B-14F6F84CFAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C031C2-A655-4CD0-909B-14F6F84CFAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7462AC-E6D9-4C52-8528-E9A1B76720DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7462AC-E6D9-4C52-8528-E9A1B76720DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7462AC-E6D9-4C52-8528-E9A1B76720DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7462AC-E6D9-4C52-8528-E9A1B76720DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

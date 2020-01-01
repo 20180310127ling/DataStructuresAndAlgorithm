@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace 扑克
 {
 
-    enum Color { 红桃 = -1, 黑桃 = -2, 梅花 = -3, 方块 = -4 }//花色
+    enum Color { 黑桃 = -1, 红桃 = -2, 梅花 = -3, 方块 = -4 }//花色
     enum Point { A, _2, _3, _4, _5, _6, _7, _8, _9, _10, J, Q, K }//点数
     struct Poker
     {//扑克
@@ -80,7 +80,7 @@ namespace 扑克
 
             Console.WriteLine();
             Console.WriteLine("\r\n--------------------------------------------");
-            Console.WriteLine("赌侠的扑克牌：");
+            Console.WriteLine("一号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
                 Poker po1 = (Poker)Person1[i];
@@ -88,7 +88,7 @@ namespace 扑克
             }
             Console.WriteLine();
             Console.WriteLine("\r\n--------------------------------------------");
-            Console.WriteLine("赌神的扑克牌：");
+            Console.WriteLine("二号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
                 Poker po2 = (Poker)Person2[i];
@@ -96,7 +96,7 @@ namespace 扑克
             }
             Console.WriteLine();
             Console.WriteLine("\r\n--------------------------------------------");
-            Console.WriteLine("赌圣的扑克牌：");
+            Console.WriteLine("三号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
                 Poker po3 = (Poker)Person3[i];
@@ -104,7 +104,7 @@ namespace 扑克
             }
             Console.WriteLine();
             Console.WriteLine("\r\n--------------------------------------------");
-            Console.WriteLine("赌怪的扑克牌：");
+            Console.WriteLine("四号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
                 Poker po4 = (Poker)Person4[i];
