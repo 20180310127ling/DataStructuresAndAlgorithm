@@ -79,7 +79,7 @@ namespace 扑克
             }
 
             Console.WriteLine();
-            Console.WriteLine("\r\n--------------------------------------------");
+            Console.WriteLine("\r\n---------------------------------------------");
             Console.WriteLine("一号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
@@ -87,7 +87,7 @@ namespace 扑克
                 po1.Printp();
             }
             Console.WriteLine();
-            Console.WriteLine("\r\n--------------------------------------------");
+            Console.WriteLine("\r\n---------------------------------------------");
             Console.WriteLine("二号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
@@ -95,7 +95,7 @@ namespace 扑克
                 po2.Printp();
             }
             Console.WriteLine();
-            Console.WriteLine("\r\n--------------------------------------------");
+            Console.WriteLine("\r\n---------------------------------------------");
             Console.WriteLine("三号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
@@ -103,7 +103,7 @@ namespace 扑克
                 po3.Printp();
             }
             Console.WriteLine();
-            Console.WriteLine("\r\n--------------------------------------------");
+            Console.WriteLine("\r\n---------------------------------------------");
             Console.WriteLine("四号的扑克牌：");
             for (int i = 0; i < 13; i++)
             {
