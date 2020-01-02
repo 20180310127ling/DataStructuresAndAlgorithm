@@ -10,11 +10,12 @@ namespace 计算平均周岁
     {
         public static void Main(string[] arg)
         {
-            Console.Title = "关于 IList<T> 实现的说明";
+      
             PersonListRepository list = new PersonListRepository();
             var persons = PersonListRepository.InitialPersonList();
 
             var a = PersonListRepository.AverageAge(persons);
+            Console.WriteLine("平均周岁————————————");
             Console.WriteLine(a);
             Console.WriteLine("-------------------------------------"); var w = PersonListRepository.InitialPersonList();
             pgdoj(w);
