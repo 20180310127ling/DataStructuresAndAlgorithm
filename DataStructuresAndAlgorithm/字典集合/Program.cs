@@ -34,7 +34,7 @@ namespace 字典集合
             Console.WriteLine("--------------------------------------------------------------------------");
             Console.WriteLine("简要说明这个字典类可以有哪些用途？");
             Console.WriteLine("答：一个产品编号对应一个产品");
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
