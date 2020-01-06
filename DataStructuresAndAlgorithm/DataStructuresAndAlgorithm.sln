@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据元素和描述", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字典集合", "字典集合\字典集合.csproj", "{96C01546-A542-4D11-9204-069F4FF94CF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord", "HelloWord\HelloWord.csproj", "{373B892E-96A5-44B6-B7E0-A222F6487749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{96C01546-A542-4D11-9204-069F4FF94CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96C01546-A542-4D11-9204-069F4FF94CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96C01546-A542-4D11-9204-069F4FF94CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373B892E-96A5-44B6-B7E0-A222F6487749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373B892E-96A5-44B6-B7E0-A222F6487749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373B892E-96A5-44B6-B7E0-A222F6487749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373B892E-96A5-44B6-B7E0-A222F6487749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
