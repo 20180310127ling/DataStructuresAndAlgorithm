@@ -22,7 +22,7 @@ namespace 鸡
                     }
                 }
             }
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
