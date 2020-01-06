@@ -19,9 +19,9 @@ namespace 人工智能
         }
         public static void TestStreamReaderEnumerable(string keyString)
         {
-            //var memoryBefore = GC.GetTotalMemory(true);
+           
             IEnumerable<String> stringsFound;
-            // 使用 StreamReaderEnumerable 打开一个示例文件，检索对应的字符串
+          
             try
             {
        
@@ -53,6 +53,7 @@ namespace 人工智能
                                 string tex = i.Substring(lent, lent1);
                                 Console.WriteLine("第:{0}行,第:{1}个字母",sun , lent  );
                                 Console.WriteLine(tex+"....");
+                                Console.WriteLine("");
                             }
                             else
                             {
